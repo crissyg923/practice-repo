@@ -1,0 +1,43 @@
+* {
+    background-color: azure;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 15px;
+    color: brown;
+}
+
+.container {
+     display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.child {
+
+    border: 10px solid;
+    padding: 20px;
+    width: 33%;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+
+#child1 {
+   width: 50px; 
+   position:absolute;
+   
+}
+#child3 {
+    position: absolute;
+    /* z-index: -1; */
+}
+
+.userinfo ul li {
+    color: black;
+    font-size: 30px;
+    
+}
